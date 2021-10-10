@@ -1,0 +1,80 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.main{
+	height: 690px;
+	width: 98.5%;
+	border:10px solid black;
+}
+.header{
+	width: 70%;
+	border:1px solid red;
+	/*text-align: center;*/
+	margin: auto;
+	height: 100px;
+	background: linear-gradient(to right, red, yellow);
+}
+.site{
+	font-size: 30px;
+	color: white;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+
+.mysite{
+	font-size: 40px;
+	color: green;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+
+/*for menu*/
+.menu{
+	width: 70%;
+	margin: auto;
+	height: 60px;
+	background-color: black;
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li{
+	float: left;
+	width: 150px;
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+	font-size: 25px;
+	/*cursor: pointer;*/
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+
+}
+/*end menu*/
+
+/*for container*/
+.container{
+	width: 70%;
+	height: 400px;
+	margin:auto;
+	/*border:2px solid red;*/
+}
+.text{
+	font-size: 20px;
+	/*font-style: justify;*/
+
+}
+
+/*footer*/
+.footer{
+	width: 70%;
+	height: 60px;
+	margin: auto;
+	background: linear-gradient(to right, gray,black);
+	text-align: center;
+	line-height: 60px;
+
+}
